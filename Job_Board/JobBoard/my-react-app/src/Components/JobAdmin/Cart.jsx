@@ -58,7 +58,7 @@ export default function Cart() {
                 </div>
                 <div className="flex justify-center space-x-6 mb-4">
                   <button
-                    className="text-sm font-semibold bg-orange-600   text-white py-1 px-5 rounded-lg uppercase"
+                    className="text-sm font-semibold bg-orange-500   text-white py-1 px-5 rounded-lg uppercase"
                     onClick={() => {
                       navigater(`/job/update/${job.id}`);
                     }}
