@@ -52,5 +52,5 @@ public class CompanyController {
         companyService.del(id);
     }
     
-
+    //add another api which need to edit particular column in data
 }
